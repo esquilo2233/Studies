@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>F-Formularios</h1>
+    
+            <p>Este e um formulario simples para inserir um nome e idade</p>
+            <p>foram adicionados mais dois iputs um de email e de password</p>
+            <form>
+                <label>Nome</label>
+                <input placeholder="Nome..." type="text">
+                <br>
+                <label>Input desativado</label>
+                <input placeholder="Nome..." type="text" disabled>
+                <br>
+                <label>Idade</label>
+                <input max="25" min="18" placeholder="Idade..." type="number">
+                <br>
+                <label>email</label>
+                <input placeholder="email@email.com" type="email">
+                <br>
+                <label>password</label>
+                <input placeholder="********" type="password">
+                <br>
+                <button type="submit">Submit</button>
+    
+            </form>
+    
+                <p>Este input contem varias opcaoes</p>
+                <input type="text" placeholder="escolha a sua Idade" list="faixa">
+                <datalist id="faixa">
+                    <option value="">faixa etária:</option>
+                    <option value="-18">menor de idade</option>
+                    <option value="+18">maior de idade</option>
+                    <option value="+60">idoso</option>
+                </datalist>
+    
+                <br>
+                <br>                            
+    
+                <label for="lg">Qual linguagem de programacao gostas?:</label>
+                <select name="lg" id="lg">
+                    <option value="Java">Java</option>
+                    <option value="C">C</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                </select>
+    
+                <br>
+    
+                <textarea name="escreva" id="" cols="30" rows="10">Escreva algo</textarea>
+    
+    </div>
+</body>
+</html>
